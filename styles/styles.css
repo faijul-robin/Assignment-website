@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 808px;
+    align-items: center;
+    padding-left: 700px;
+}
+
+.banner-title {
+    color: aliceblue;
+    text-align: right;
+    padding: 264px;
+    width: 525px;
+    height: 228px;
+    padding-bottom: 24px;
+}
+
+.btn-primary {
+    height: 64px;
+    width: 160px;
+    margin-top: 32px;
+}
