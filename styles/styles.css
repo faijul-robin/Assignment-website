@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* banner style */
 .banner {
     background-image: url('../images/banner/banner3.png');
     width: 1600px;
@@ -24,4 +25,28 @@
     height: 64px;
     width: 160px;
     margin-top: 32px;
+    background-color: olivedrab;
+}
+
+/* content style */
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content-text {
+    padding: 200px 150px;
+}
+content content-list{
+    display: block;
+}
+.content-title{
+    padding-bottom: 20px;
+}
+/* plans style */
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 300px;
+    align-items: center;
 }
