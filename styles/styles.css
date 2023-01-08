@@ -3,31 +3,46 @@
     padding: 0;
 }
 
-.container{
+.container {
     background-image: url('../images/banner/banner3.png');
     width: 1600px;
     height: 750px;
 }
-.content{
+
+.content {
     position: absolute;
     top: 50%;
     left: 60%;
+
+}
+
+.content-title {
+    color: wheat;
     
 }
-.content-title{
-    color: wheat;
-    margin-bottom: 5%;
-    padding: 5px;
-}
-.content-text{
+
+.content-text {
     color: white;
     display: block;
     padding: 20px 20px;
 }
-.call-now{
+
+.call-now {
     margin-left: 60%;
     display: block;
     background-color: white;
     padding: 20px 30px;
     margin-top: 5%;
+}
+.person-image{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.my-failure{
+    display: flex;
+    align-items: center;
+}
+.person-text{
+    margin-top: 10%;
+    margin-left: 15%;
 }
