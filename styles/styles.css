@@ -1,131 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    Font family: Work Sans
 }
 
-/* banner style */
-.banner {
+.container{
     background-image: url('../images/banner/banner3.png');
-    background-repeat: no-repeat;
     width: 1600px;
-    height: 808px;
-    align-items: center;
-    padding-left: 700px;
+    height: 750px;
 }
-
-.banner-title {
-    color: aliceblue;
-    text-align: right;
-    padding: 264px;
-    width: 300px;
-    height: 228px;
-    padding-bottom: 24px;
-    font-weight: bold;
+.content{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    
 }
-
-.banner-text {
-    width: 300px;
+.content-title{
+    color: wheat;
+    margin-bottom: 5%;
+    padding: 5px;
 }
-
-.btn-primary {
-    height: 64px;
-    width: 160px;
-    margin-top: 32px;
-    background-color: olivedrab;
-    border: none;
-}
-
-/* content style */
-.content {
-    display: flex;
-    align-items: center;
-    padding-top: 131px;
-    padding-left: 206px;
-}
-
-.content-text {
-    padding: 200px 150px;
-}
-
-content content-list {
+.content-text{
+    color: white;
     display: block;
+    padding: 20px 20px;
 }
-
-.content-title {
-    padding-bottom: 20px;
-}
-
-/* plans style */
-.plans {
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 300px;
-    align-items: center;
-}
-
-.content-text .content-list {
-    display: flex;
-}
-
-content content-list {}
-
-/* positive mindset section styles */
-.positive-mindset {
-    padding: 120px 230px 130px 230px;
-    background-image: linear-gradient(to right to left);
-
-}
-
-.positive-mindset-title {
-    background-image: url('/images/watch.png');
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 300px;
-    color: aliceblue;
-    padding: 60px 620px 150px 65px;
-}
-
-.call-now {
-    color: blue;
-    width: 100px;
-    height: 40px;
-
-
-}
-
-/* footer styles */
-.footer-description {
-    width: 1600px;
-    height: 570px;
-    display: flex;
-    background: #151414;
-    color: aliceblue;
-    padding-top: 300px;
-
-}
-
-.contact-details {
-    width: 500px;
-    height: 500px;
-    padding-left: 200px;
-
-
-}
-
-.icon {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.contact-form {
-    padding-left: 500px;
-}
-
-.subscribe {
-    background-color: whitesmoke;
-    width: 150px;
-    height: 60px;
-
+.call-now{
+    margin-left: 60%;
+    display: block;
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 5%;
 }
