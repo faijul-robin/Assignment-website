@@ -64,20 +64,20 @@ content content-list {
     align-items: center;
 }
 
-.content-list {
-    vertical-align: baseline;
+.content-text .content-list {
+    display: flex;
 }
 
-content content-list {
+content content-list {}
 
-}
 /* positive mindset section styles */
-.positive-mindset{
+.positive-mindset {
     padding: 120px 230px 130px 230px;
     background-image: linear-gradient(to right to left);
-    
+
 }
-.positive-mindset-title{
+
+.positive-mindset-title {
     background-image: url('/images/watch.png');
     background-repeat: no-repeat;
     width: 1000px;
@@ -85,11 +85,47 @@ content content-list {
     color: aliceblue;
     padding: 60px 620px 150px 65px;
 }
-.call-now{
+
+.call-now {
     color: blue;
     width: 100px;
     height: 40px;
-    
+
 
 }
-    
+
+/* footer styles */
+.footer-description {
+    width: 1600px;
+    height: 570px;
+    display: flex;
+    background: #151414;
+    color: aliceblue;
+    padding-top: 300px;
+
+}
+
+.contact-details {
+    width: 500px;
+    height: 500px;
+    padding-left: 200px;
+
+
+}
+
+.icon {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.contact-form {
+    padding-left: 500px;
+}
+
+.subscribe {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 60px;
+
+}
