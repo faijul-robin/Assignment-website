@@ -48,8 +48,8 @@
 
 .person-text {
     margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 20%;
+    margin-left: 10%;
+    padding: 100px;
 }
  /* plans section styles*/
 .plans-title {
@@ -67,7 +67,7 @@
 }
 /* positive mindset styles*/
 .positive-mindset {
-    background-image: linear-gradient(90deg, #8900AC 0%, rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
+    background-image: linear-gradient(90deg, #8900AC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 5%;
